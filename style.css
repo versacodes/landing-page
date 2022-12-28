@@ -13,7 +13,7 @@ body {
 	display: flex;
 	background: #1F2937;
 	flex-direction: column;
-	align-items: space-around; 
+	align-items: space-around;
 }
 
 .header {
@@ -43,11 +43,13 @@ body {
 	display: flex;
 	justify-content: space-around; 
 	padding: 60px 20px; 
-	align-items: center;
+	align-items: flex-end; 
+	flex-wrap: wrap;
+	gap: 35px 0;
 }
 
 .hero-section > .main-text {
-	max-width: 370px; 
+	max-width: 370px;
 }
 
 .hero-section > .main-text > .heading {
@@ -75,7 +77,7 @@ body {
 .hero-section > .img-container {
 	color: #E5E7EB;
 	background: darkgrey;
-	padding: 80px; 
+	padding: 110px; 
 	font-size: 12px;
 }
 
@@ -136,4 +138,39 @@ body {
 
 .quote-section > .author-container > .author {
 	font-size: 15px;
+}
+
+.cta-section {
+	padding: 70px 160px;
+}
+
+.cta-section > .cta-box {
+	background: #3882F6;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end; 
+	border-radius: 3px;
+	padding: 50px 60px;
+	flex-wrap: wrap;
+	gap: 35px 0;
+}
+
+.cta-section > .cta-box > .cta-main-text > .cta-title {
+	color: #F9FAF8;
+	font-size: 25px;
+}
+
+.cta-section > .cta-box  >.cta-main-text > .cta-text {
+	color: #E5E7EB;
+	margin-top: 10px;
+}
+
+.cta-section > .cta-box > .cta-button {
+	background: transparent;
+	border-color: white;
+	border-radius: 5px;
+	border-style: solid;
+	padding: 10px 20px; 
+	color: #F9FAF8;
+	font-weight: bold;
 }
