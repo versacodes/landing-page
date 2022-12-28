@@ -72,3 +72,43 @@
 	padding: 80px; 
 	font-size: 12px;
 }
+
+.info-section {
+	padding: 70px 0; 
+}
+
+.info-section > .title {
+	font-size: 36px;
+	font-weight: extra-bold;
+	color: #1F2937;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.info-section > .card-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.info-section > .card-container > .cards {
+	max-width: 135px;
+}
+
+.info-section > .card-container > .cards > .card-image {
+	padding: 60px; 
+	border-radius: 13px;
+	border-style: solid;
+	border-color: skyblue;
+	border-width: 4px;
+}
+
+.info-section > .card-container > .cards > .card-text {
+	font-size: 13px;
+	color: #1F2937;
+	margin-top: 12px;
+	padding: 0 3px;
+	text-align: center;
+}
+
