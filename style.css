@@ -163,6 +163,7 @@ body {
 .cta-section > .cta-box  >.cta-main-text > .cta-text {
 	color: #E5E7EB;
 	margin-top: 10px;
+	max-width: 275px; 
 }
 
 .cta-section > .cta-box > .cta-button {
@@ -173,4 +174,14 @@ body {
 	padding: 10px 20px; 
 	color: #F9FAF8;
 	font-weight: bold;
+}
+
+.footer {
+	background: #1F2937;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.footer > .copyright {
+	color: #E5E7EB;
 }
