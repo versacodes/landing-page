@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	font-family: 'Roboto'; 
 }
 
 .top-section {
@@ -112,3 +118,22 @@
 	text-align: center;
 }
 
+.quote-section {
+	background-color: #E5E7EB;
+	padding: 60px 130px;
+}
+
+.quote-section > .quote {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.quote-section > .author-container {
+	text-align: right;
+	margin-top: 20px;
+}
+
+.quote-section > .author-container > .author {
+	font-size: 15px;
+}
